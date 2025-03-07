@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.auth-links {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.auth-links .btn {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.btn.login {
+    background-color: #28a745;
+}
+
+.btn.logout {
+    background-color: #dc3545;
+}
+
+select, button, textarea {
+    margin: 10px;
+    padding: 12px;
+    font-size: 16px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#question, #correct-answer, #feedback, #skillsDisplay {
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#question {
+    background: #f9f9f9;
+    color: #444;
+    border-left: 5px solid #007BFF;
+}
+
+#correct-answer {
+    background: #d4edda;
+    color: #155724;
+    border-left: 5px solid #28a745;
+}
+
+#feedback {
+    background: #fff3cd;
+    color: #856404;
+    border-left: 5px solid #ffc107;
+}
+
+#skillsDisplay {
+    background: #e3f2fd;
+    color: #0277bd;
+    border-left: 5px solid #0288d1;
+    padding: 10px;
+    margin-top: 20px;
+}
